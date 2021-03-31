@@ -1,0 +1,39 @@
+{
+  "name": "buffer-mime",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "description": "Get mime type of ArrayBuffer or UInt8Array with no dependencies",
+  "version": "0.0.1",
+  "keywords": [
+    "mimetype",
+    "buffer",
+    "mime",
+    "arraybuffer"
+  ],
+  "maintainers": [
+    {
+      "name": "fax1ty",
+      "email": "fax1ty.ru@gmail.com",
+      "web": "https://github.com/fax1ty"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://mit-license.org/"
+    }
+  ],
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git@github.com:fax1ty/buffer-name.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:test": "tsc --noEmit"
+  }
+}
